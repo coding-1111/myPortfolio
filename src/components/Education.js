@@ -51,7 +51,14 @@ export const Education = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Education</h2>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                <div style={{display: "flex", backgroundColor: "purple", borderRadius: "25px"}} >
+                      <h5 style={{padding: "10px 10px", alignContent:"center", textAlign:"center"}}>2019 - 2022</h5>
+                      <p className="my-education-text">SNDT Women's University</p>
+                      {/* <div> */}
+                      <h5>Usha Mittal Inatitute of Technology</h5>
+                      {/* <p>Garduated with 9.3 GPA, as a BTech engineer from Iformation Technology Branch</p> */}
+                      {/* </div> */}
+                </div>
               </div>}
             </TrackVisibility>
           </Col>
