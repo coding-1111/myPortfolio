@@ -55,7 +55,7 @@ export const Education = () => {
                       <h5 style={{padding: "10px 10px", alignContent:"center", textAlign:"center"}}>2019 - 2022</h5>
                       <p className="my-education-text">SNDT Women's University</p>
                       {/* <div> */}
-                      <h5>Usha Mittal Inatitute of Technology</h5>
+                      <h5>Usha Mittal Inatitute of Technology HOLAAAAAAAAAAA!</h5>
                       {/* <p>Garduated with 9.3 GPA, as a BTech engineer from Iformation Technology Branch</p> */}
                       {/* </div> */}
                 </div>
